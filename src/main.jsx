@@ -5,7 +5,8 @@ import "./index.css";
 /* 임폴트 컨포넌트이름 프롬 경로 */
 /* import Day01 from "./pages/day01/Day01"; */
 /* import Day02 from "./pages/day02/Day02"; */
-import Day03 from "./pages/day03/Day03";
+/* import Day03 from "./pages/day03/Day03"; */
+import Music from "./pages/music/Music";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")).render(
     */}
     {/* <Day01 /> */}
     {/* <Day02 /> */}
-    <Day03 />
+    {/* <Day03 /> */}
+    <Music />
   </StrictMode>,
 );
