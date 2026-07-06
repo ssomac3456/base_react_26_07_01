@@ -7,6 +7,7 @@ import "./index.css";
 /* import Day02 from "./pages/day02/Day02"; */
 /* import Day03 from "./pages/day03/Day03"; */
 import Music from "./pages/music/Music";
+import Day04 from "./pages/day04/Day04";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")).render(
     {/* <Day01 /> */}
     {/* <Day02 /> */}
     {/* <Day03 /> */}
-    <Music />
+    {/* <Music /> */}
+    <Day04 />
   </StrictMode>,
 );
