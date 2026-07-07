@@ -1,5 +1,6 @@
 import { CircleUserRound, Sparkles } from "lucide-react";
-
+//lucide-react 라이브러리에서 아이콘을 가져온다.
+//터미널에서 npm install lucide-react 써서 설치해야함
 export default function ResponsiveEx() {
   return (
     <div className="min-h-screen bg-gray-200 p-4">
