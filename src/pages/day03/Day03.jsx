@@ -1,7 +1,17 @@
+import AnimationEx from "./components/AnimationEx";
+import ResponsiveEx from "./components/ResponsiveEx";
+import StyleEx from "./components/StyleEx";
+import TailwindEx from "./components/TailwindEx";
+import TransformEx from "./components/TransformEx";
+
 export default function Day03() {
   return (
-    <div className="w-40 h-40 bg-red-500 text-white">
-      안녕!!!!
+    <div>
+      {/* <StyleEx /> */}
+      {/* <TailwindEx /> */}
+      {/* <TransformEx /> */}
+      {/* <AnimationEx /> */}
+      <ResponsiveEx />
     </div>
-  )
+  );
 }
