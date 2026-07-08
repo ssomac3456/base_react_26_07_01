@@ -27,7 +27,7 @@ export default function Login() {
             required: "아이디는 필수입니다.",
             minLength: {
               value: 8,
-              message: "패스워드는 8자 이상 작성해주세요.",
+              message: "아이디는 8자 이상 작성해주세요.",
             },
             pattern: {
               value: /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,20}$/,
@@ -57,8 +57,8 @@ export default function Login() {
       </form>
     </div>
   );
-  로그인 회원가입
+  /*   로그인 회원가입
   아이디 이메일 패스워드 이름
   두페이지 버튼으로 와따리가까리
-  로그인밑에 계정이 없으신가요? 회원가입 이런식으로
+  로그인밑에 계정이 없으신가요? 회원가입 이런식으로 */
 }
