@@ -1,7 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Day07 from "./pages/day07/Day07";
+import App from "./App";
+/* import NowaPreview from "./pages/nowa/NowaPreview"; */
+/* import Day07 from "./pages/day07/Day07"; */
 /* import Day06 from "./pages/day06/Day06"; */
 /* import Day05 from "./pages/day05/Day05"; */
 /* import App from './App.jsx' app.jsx지웠으니까 경로도지워야함 */
@@ -25,6 +27,8 @@ createRoot(document.getElementById("root")).render(
     {/* <Day04 /> */}
     {/* <Day05 /> */}
     {/* <Day06 /> */}
-    <Day07 />
+    {/* <Day07 /> */}
+    {/* <NowaPreview /> */}
+    <App />
   </StrictMode>,
 );
